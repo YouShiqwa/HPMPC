@@ -1,2 +1,3 @@
 # HPMPC
-Official PyTorch implementation of HPMPC,Coming soon！
+Official PyTorch implementation of HPMPC
+Our code is coming soon！
