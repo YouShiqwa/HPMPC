@@ -8,6 +8,7 @@ Make sure you have the following dependencies installed:
 * Pytorch>=2.0.1
 * Numpy
 * CUDA>=11.7
+> Our environment configuration is given in ```environment.yal```,which can be used as a reference.
 # Demo
 This is a demo of our work！  
 ![demo of our work](https://github.com/YouShiqwa/HPMPC/blob/main/video_gif.gif)
@@ -27,13 +28,13 @@ python3 visualize_episodes.py --dataset_dir <data save dir> --episode_idx 0
 To train HPMPC:  
 ```
 python -u imitate_episodes_v2.py  \
---gpu 0 \
+--gpu id \
 --ckpt_dir <ckpt dir> \
 --task_name "sim_transfer_cube_scripted" 
+```   
+If you want to evaluate the policy,run  
 ```
-If you want to evaluate the training results，run  
-```
---gpu 0 \
+--gpu id \
 --ckpt_dir <ckpt dir> \
 --task_name "sim_transfer_cube_scripted"  --eval
 ```
