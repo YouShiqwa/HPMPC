@@ -1,8 +1,6 @@
 # HPMPC: Robotic Imitation Learning via Hybrid Perception Model
 This is the Official PyTorch implementation of "HPMPC: Robotic Imitation Learning via Hybrid Perception Model"  
 Our code is coming soon!  
-# Architecture 
-![image](https://github.com/YouShiqwa/HPMPC/blob/main/pic/1.png)
 # Environment
 Make sure you have the following dependencies installed:
 * Pytorch>=2.0.1
@@ -12,7 +10,7 @@ Make sure you have the following dependencies installed:
 # Demo
 This is a demo of our work！  
 ![demo of our work](https://github.com/YouShiqwa/HPMPC/blob/main/video_gif.gif)
-# DataSets
+# Datasets
 You can generate the dataset for training using the following statement：  
 ```
 python3 record_sim_episodes.py \
