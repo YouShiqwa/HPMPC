@@ -10,7 +10,7 @@ Make sure you have the following dependencies installed:
 * CUDA>=11.7
 # Demo
 This is a demo of our work！  
-
+![demo of our work](https://github.com/YouShiqwa/HPMPC/blob/main/video_gif.gif)
 # DataSets
 You can generate the dataset for training using the following statement：  
 ```
