@@ -9,8 +9,8 @@ Make sure you have the following dependencies installed:
 * Numpy
 * CUDA>=11.7
 # Demo
-This is a video of our work！  
-https://github.com/user-attachments/assets/6e4b3bbb-3103-4525-87a2-673049b91903
+This is a demo of our work！  
+
 # DataSets
 You can generate the dataset for training using the following statement：  
 ```
